@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: ;
+}
+body{
+    padding: 20px;
+    margin: 20px;
+    justify-content: centers;
+}
+header{
+    justify-content: center;
+    margin: 350px;
+
+ }
+ button{
+    background-color: red;
+    color: white;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    font-size: 25px;
+    border-radius: 20%;
+    float: none;  
+ }
+ button:hover{
+    background-color: orange;
+    color: greenyellow;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1)s;
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+ }
